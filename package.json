@@ -9,14 +9,12 @@
     "nodejs",
     "emotiv",
     "epoc",
-	"sdk",
-	"community"
+    "sdk",
+    "community"
   ],
-  "main": "src/index.js",
+  "main": "test.js",
   "gypfile": true,
   "dependencies": {
-    "bindings": "~1.2.1",
-    "nan": "*",
-    "underscore": "^1.8.3"
+    "node-gyp": "^3.3.1"
   }
 }
